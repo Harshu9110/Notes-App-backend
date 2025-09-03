@@ -12,7 +12,7 @@ app = FastAPI()
 origins = [
     "http://localhost:5173",  # frontend URL
     "http://127.0.0.1:5173",
-    "https://notes-app-frontend-jox5huups.vercel.app"
+    "https://notes-app-frontend-coral.vercel.app"
 ]
 
 app.add_middleware(
