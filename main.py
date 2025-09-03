@@ -11,7 +11,7 @@ app = FastAPI()
 # ⚡ Add CORS settings
 origins = [
     "http://localhost:5173",  # frontend URL
-    "http://127.0.0.1:5173"
+    "http://127.0.0.1:5173",
     "https://notes-app-frontend-jox5huups.vercel.app"
 ]
 
